@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selina Dairy Farm</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <!-- TITLE SECTION -->
+
+    <section>
+
+        <h2 id="title">Wang'ombe Dairy Farm</h2>
+
+        <div class="milkProduce">
+    
+            <!-- INPUT SECTION -->
+            
+            <div class="formData">
+                
+                <form action="submit" onsubmit="produceReport();">
+                    <h3>Fill and submit the form bellow to get a summary of your income</h3> 
+                    <div id="sheds">
+                        <label for="shed_A">Shed A: Milk (Litres)</label>
+                        <input id="shed_A" type="number" min="0" required>
+                    </div>
+                    <div id="sheds">
+                        <label for="shed_B">Shed B: Milk (Litres)</label>
+                        <input id="shed_B" type="number" min="0" required>
+                    </div>
+            
+                    <div id="sheds">
+                        <label for="shed_C">Shed C: Milk (Litres)</label>
+                        <input id="shed_C" type="number" min="0" required>
+                    </div>
+            
+                    <div id="sheds">
+                        <label for="shed_D">Shed D: Milk (Litres)</label>
+                        <input id="shed_D" type="number" min="0" required>
+                    </div>
+            
+                    <button type="submit">Submit</button>
+                    <button id="reset" type="reset" onclick="resetPage();">Reset</button>
+                    
+                </form>
+            </div>
+            <!-- OUTPUT RESULTS -->
+            
+            <div class="outputDisplay">
+                <h3 id="displayTitle">Production Summary</h3>
+                <hr>
+                <p id="outputData"></p>
+    
+                <!-- OPTIONAL CHALLENGE -->
+            </div>
+        </div>        
+    </section>
+    <script src="./assets/javascript/index.js"></script>
+    
+</body>
+</html>
