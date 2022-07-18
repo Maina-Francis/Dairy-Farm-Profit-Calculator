@@ -92,3 +92,10 @@ form > button[type = "submit"], form > button[type = "reset"]{
     height: 550px;
     
 }
+#displayTitle{
+    text-align: center;
+}
+
+#outputData{
+    padding: 0px 20px;
+}
