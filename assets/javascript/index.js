@@ -105,4 +105,22 @@ function produceReport() {
     ". The difference, rounded off to the nearest value, is Ksh. " +
     Math.round(incomeMarchDifference) +
     ".</p>";
-  
+  document.getElementById("outputData").innerHTML += "\n";
+  document.getElementById("outputData").innerHTML +=
+    "<p>April: At price = Ksh. 45, you earn: Ksh. " +
+    incomeApril +
+    ". At price = 49.60, you earn Ksh. " +
+    Math.round(newIncomeApril) +
+    ". The difference, rounded off to the nearest value, is Ksh. " +
+    Math.round(incomeAprilDifference) +
+    ".</p>";
+  document.getElementById("outputData").innerHTML += "\n";
+  document.getElementById("outputData").innerHTML +=
+    "<p>May: At price = Ksh. 45, you earn: Ksh. " +
+    incomeMay +
+    ". At price = 49.60, you earn Ksh. " +
+    Math.round(newIncomeMay) +
+    ". The difference, rounded off to the nearest value, is Ksh. " +
+    Math.round(incomeMayDifference) +
+    ".</p>";
+ 
