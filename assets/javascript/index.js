@@ -150,48 +150,4 @@ function produceReport() {
     ". The difference, rounded off to the nearest value, is Ksh. " +
     Math.round(incomeAugustDifference) +
     ".</p>";
-  document.getElementById("outputData").innerHTML += "\n";
-  document.getElementById("outputData").innerHTML +=
-    "<p>September: At price = Ksh. 45, you earn: Ksh. " +
-    incomeSeptember +
-    ". At price = 49.60, you earn Ksh. " +
-    Math.round(newIncomeSeptember) +
-    ". The difference, rounded off to the nearest value, is Ksh. " +
-    Math.round(incomeSeptemberDifference) +
-    ".</p>";
-  document.getElementById("outputData").innerHTML += "\n";
-  document.getElementById("outputData").innerHTML +=
-    "<p>October: At price = Ksh. 45, you earn: Ksh. " +
-    incomeOctober +
-    ". At price = 49.60, you earn Ksh. " +
-    Math.round(newIncomeOctober) +
-    ". The difference, rounded off to the nearest value, is Ksh. " +
-    Math.round(incomeOctoberDifference) +
-    ".</p>";
-  document.getElementById("outputData").innerHTML += "\n";
-  document.getElementById("outputData").innerHTML +=
-    "<p>November: At price = Ksh. 45, you earn: Ksh. " +
-    incomeNovember +
-    ". At price = 49.60, you earn Ksh. " +
-    Math.round(newIncomeNovember) +
-    ". The difference, rounded off to the nearest value, is Ksh. " +
-    Math.round(incomeNovemberDifference) +
-    ".</p>";
-  document.getElementById("outputData").innerHTML += "\n";
-  document.getElementById("outputData").innerHTML +=
-    "<p>December: At price = Ksh. 45, you earn: Ksh. " +
-    incomeDecember +
-    ". At price = 49.60, you earn Ksh. " +
-    Math.round(newIncomeDecember) +
-    ". The difference, rounded off to the nearest value, is Ksh. " +
-    Math.round(incomeDecemberDifference) +
-    ".</p>";
-  document.getElementById("outputData").innerHTML += "<Br>";
-}
-
-// RESET FUNCTION
-
-function resetPage() {
-  document.getElementById("outputData").remove("innerHTML");
-  location.reload();
-}
+  
