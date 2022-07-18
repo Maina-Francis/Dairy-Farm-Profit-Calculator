@@ -61,4 +61,19 @@ function produceReport() {
   incomeDecember = newdailyIncome * 31;
   newIncomeInLeapYear = 366 * 49.6;
 
+  newIncomeInLeapYear = 366 * 49.6;
+
+  incomeJanuaryDifference = newIncomeJanuary - incomeJanuary;
+  incomeFebruaryDifference = newIncomeFebruary - incomeFebruary;
+  incomeMarchDifference = newIncomeMarch - incomeMarch;
+  incomeAprilDifference = newIncomeApril - incomeApril;
+  incomeMayDifference = newIncomeMay - incomeMay;
+  incomeJuneDifference = newIncomeJune - incomeJune;
+  incomeJulyDifference = newIncomeJuly - incomeJuly;
+  incomeAugustDifference = newIncomeAugust - incomeAugust;
+  incomeSeptemberDifference = newIncomeSeptember - incomeSeptember;
+  incomeOctoberDifference = newIncomeOctober - incomeOctober;
+  incomeNovemberDifference = newIncomeNovember - incomeNovember;
+  incomeDecemberDifference = newIncomeDecember - incomeDecember;
+
   
