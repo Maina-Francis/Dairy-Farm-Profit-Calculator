@@ -159,4 +159,13 @@ function produceReport() {
     ". The difference, rounded off to the nearest value, is Ksh. " +
     Math.round(incomeSeptemberDifference) +
     ".</p>";
+  document.getElementById("outputData").innerHTML += "\n";
+  document.getElementById("outputData").innerHTML +=
+    "<p>October: At price = Ksh. 45, you earn: Ksh. " +
+    incomeOctober +
+    ". At price = 49.60, you earn Ksh. " +
+    Math.round(newIncomeOctober) +
+    ". The difference, rounded off to the nearest value, is Ksh. " +
+    Math.round(incomeOctoberDifference) +
+    ".</p>";
  
