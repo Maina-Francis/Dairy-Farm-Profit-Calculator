@@ -81,3 +81,14 @@ form > button[type = "submit"], form > button[type = "reset"]{
     border: 1px solid white;
 } 
 
+/* OUTPUT DISPLAY */
+.outputDisplay{
+    overflow: auto;
+    width: 50%;
+    box-shadow:0px 0px 10px rgb(150, 179, 169);
+    background-color: rgb(25, 49, 41);
+    border-radius: 4px;
+    font-size: 16px;
+    height: 550px;
+    
+}
