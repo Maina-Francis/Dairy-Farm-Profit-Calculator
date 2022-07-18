@@ -188,3 +188,10 @@ function produceReport() {
     ".</p>";
   document.getElementById("outputData").innerHTML += "<Br>";
 }
+
+// RESET FUNCTION
+
+function resetPage() {
+  document.getElementById("outputData").remove("innerHTML");
+  location.reload();
+}
