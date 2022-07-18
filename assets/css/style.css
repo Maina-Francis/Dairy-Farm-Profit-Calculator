@@ -59,3 +59,16 @@ body{
     padding: 20px;
     
 }
+form > div > input[type="number"]{
+    height: 30px;
+     
+}
+
+/* Button */
+form > button {
+    
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    
+}
