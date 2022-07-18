@@ -21,7 +21,16 @@
             
             <div class="formData">
                 
-                
+                <form action="submit" onsubmit="produceReport();">
+                    <h3>Fill and submit the form bellow to get a summary of your income</h3> 
+                    <div id="sheds">
+                        <label for="shed_A">Shed A: Milk (Litres)</label>
+                        <input id="shed_A" type="number" min="0" required>
+                    </div>
+                    <div id="sheds">
+                        <label for="shed_B">Shed B: Milk (Litres)</label>
+                        <input id="shed_B" type="number" min="0" required>
+                    </div>
             
                     <div id="sheds">
                         <label for="shed_C">Shed C: Milk (Litres)</label>
